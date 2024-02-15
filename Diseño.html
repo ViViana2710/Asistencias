@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Circuitos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+</section>
+<section id="registrar-asistencia">
+    <h2>Diseño de Circuitos</h2>
+    <form action="#" method="post">
+        <label for="materia">Paralelo:</label>
+        <input type="text" id="materia" name="materia" required>
+        <label for="horas">Horas a la semana:</label>
+        <input type="number" id="horas" name="horas" required>
+        <label for="num-estudiantes">Número de Estudiantes:</label>
+        <input type="number" id="num-estudiantes" name="num-estudiantes" required>
+        <label for="dias-semana">Día de la Semana:</label>
+        <select id="dias-semana" name="dias-semana" multiple required>
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+        </select>
+        <label for="estudiantes">Estudiantes presentes:</label>
+        <input type="text" id="estudiantes" name="estudiantes" placeholder="Ingrese los nombres separados por comas" required>
+        <button type="submit">Registrar Asistencia</button>
